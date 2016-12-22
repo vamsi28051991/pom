@@ -1,5 +1,5 @@
-set projectLocation=https://github.com/vamsi28051991/pom
+set projectLocation=C:\Users\vthond001c\workspace\pom
 cd %projectLocation%
-set classpath=%projectLocation%/tree/master/bin;%projectLocation%/tree/master/Lib/*
-java org.testng.TestNG %projectLocation%/blob/master/testng.xml
+set classpath=%projectLocation%\bin;%projectLocation%\Lib\*
+java org.testng.TestNG %projectLocation%\testng.xml
 pause
