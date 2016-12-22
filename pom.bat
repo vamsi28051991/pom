@@ -1,5 +1,5 @@
-set projectLocation=C:\Program Files (x86)\Jenkins\workspace\GITPOM
+set projectLocation=https://github.com/vamsi28051991/pom
 cd %projectLocation%
-set classpath=%projectLocation%\bin;%projectLocation%\Lib\*
+set classpath=%projectLocation%/tree/master/bin;%projectLocation%/tree/master/Lib/*
 java org.testng.TestNG %projectLocation%\testng.xml
 pause
