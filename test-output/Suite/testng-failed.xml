@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="test(failed)" preserve-order="false">
+    <classes>
+      <class name="Test.TestGuru99CreateAccount">
+        <methods>
+          <include name="setup"/>
+          <include name="clickCreateAccount"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50848" started-at="2016-12-21T11:40:09Z" finished-at="2016-12-21T11:41:00Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="50848" started-at="2016-12-21T11:40:09Z" finished-at="2016-12-21T11:41:00Z">
+      <class name="Test.TestGuru99CreateAccount">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestGuru99CreateAccount@71e7a66b]" name="setup" is-config="true" duration-ms="5104" started-at="2016-12-21T11:40:09Z" finished-at="2016-12-21T11:40:14Z">
+        </test-method>
+        <test-method status="PASS" signature="clickLoginOnHomePage()[pri:0, instance:Test.TestGuru99CreateAccount@71e7a66b]" name="clickLoginOnHomePage" duration-ms="832" started-at="2016-12-21T11:40:14Z" finished-at="2016-12-21T11:40:15Z">
+        </test-method>
+        <test-method status="PASS" signature="clickCreateAccount()[pri:1, instance:Test.TestGuru99CreateAccount@71e7a66b]" name="clickCreateAccount" duration-ms="15732" started-at="2016-12-21T11:40:15Z" finished-at="2016-12-21T11:40:31Z">
+        </test-method>
+        <test-method status="PASS" signature="clickRegister()[pri:2, instance:Test.TestGuru99CreateAccount@71e7a66b]" name="clickRegister" duration-ms="29173" started-at="2016-12-21T11:40:31Z" finished-at="2016-12-21T11:41:00Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
